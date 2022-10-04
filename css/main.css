@@ -34,6 +34,11 @@ a{
     color:black;
 }
 
+.navigation__links:hover{
+    border-bottom: 3px solid #DB7A4E;
+    padding-bottom: 4px;
+}
+
 .navigation__links--underline{
     border-bottom: 3px solid #DB7A4E;
     padding-bottom: 4px;

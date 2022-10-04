@@ -69,6 +69,11 @@ h1{
     font-weight: 700;
 }
 
+.navigation__links:hover{
+    border-bottom: 3px solid #DB7A4E;
+    padding-bottom: 4px;
+}
+
 /* DESTINATION */
 
 .--imageHawaii{
