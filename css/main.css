@@ -92,6 +92,7 @@ button {
 
 .recommendations__title{
     padding-left: 3rem;
+    margin-top: 3.1rem;
 }
 
 .destinations-container{
@@ -116,6 +117,18 @@ button {
     justify-content: flex-end;
     color: white;
 }
+
+.destinations__card:hover{
+    border: 5px solid pink;
+
+    /* attempted dive deeper with opacity overlay*/
+    /* background-image: url(https://i.pinimg.com/originals/7a/7e/92/7a7e92fbc61dff32902a59f7831fa725.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.1; */
+   
+}   
 
 .--greeceImage{
     background-image: url(../assets/images/greece.jpg);
