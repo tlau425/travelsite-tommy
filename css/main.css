@@ -1,0 +1,141 @@
+/* GENERAL STYLING */
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.--bluefontcolor{
+    color: #335576;
+}
+
+.--subcolor{
+    color: #DB7A4E;
+}
+
+/* NAVIGATION */
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+}
+.navigation-container {
+    display: flex;
+    margin-right: 1rem;
+    min-width: 20rem;
+    justify-content: space-between;
+}
+
+
+.navigation__links{    
+    color:black;
+}
+
+.navigation__links--underline{
+    border-bottom: 3px solid #DB7A4E;
+    padding-bottom: 4px;
+    
+}
+.navigation__logo {
+    display: flex;
+    align-self: center;
+    margin-left: 3rem;
+    color: #335576;
+    font-weight: 700;
+}
+
+/* HERO */
+
+.hero-container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display:flex;
+    /* background-color: #FEFAF5; */
+    background-color: orange;
+    justify-content: space-between;
+    
+}
+
+.hero__description{
+    margin-top: 50px;
+    width: 425px;
+    padding-left: 3rem;
+}
+
+.hero__image-container{
+    width: 600px;
+    display:flex;
+    justify-content: center;
+}
+.hero__image{
+    height: 400px;
+}
+
+button {
+    background-color:#DB7A4E;
+    color: white;
+    border-radius: 15px;
+    border-style:none;
+    width: 160px;
+    height: 35px;
+}
+
+/* RECOMMONDATIONS */
+
+.recommendations__title{
+    padding-left: 3rem;
+}
+
+.destinations-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.destinations__title{
+    padding-right: 20px;
+}
+
+.destinations__card{
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    border: 1px solid rgb(0,0,0, 20%);
+    box-shadow: 0px 4px 4px rgb(0,0,0, 20%);
+    height: 430px;
+    width: 300px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: white;
+}
+
+.--greeceImage{
+    background-image: url(../assets/images/greece.jpg);
+}
+
+.--hawaiiImage{
+    background-image: url(../assets/images/hawaii.jpg);
+}
+
+.--icelandImage{
+    background-image: url(../assets/images/iceland.jpg);
+}
+
+
+/* FOOTER */
+
+.footer-container{
+    margin-top: 150px;
+    background-color: #FEFAF5;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hours-container{
+    width: 500px;
+    display:flex;
+    justify-content: space-between;
+}
