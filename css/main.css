@@ -128,14 +128,26 @@ button {
 /* FOOTER */
 
 .footer-container{
-    margin-top: 150px;
+    margin-top: 9.37rem;
     background-color: #FEFAF5;
     display: flex;
     justify-content: space-around;
 }
 
 .hours-container{
-    width: 500px;
+    width: 31.25rem;
     display:flex;
     justify-content: space-between;
+}
+
+
+.icons__container{
+    display: flex;
+    width: 15.62rem;;
+}
+
+.footer__icons{
+    height: 2.5rem;
+    width: 1.87rem;
+    margin-right: 2.8rem;
 }
