@@ -1,0 +1,151 @@
+/* GENERAL STYLING */
+body{
+    margin: 0;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.--bluefontcolor{
+    color: #335576;
+}
+
+.--subcolor{
+    color: #DB7A4E;
+}
+
+.activities{
+    display:flex;
+    background-color: #FEFAF5;
+    width: 200px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+h1{ 
+    margin-top:3rem;   
+    margin-right: 75%;
+    font-size: 6.125rem;
+    margin-left: 6.125rem;
+    color: white;
+}
+
+/* NAVIGATION */
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+}
+.navigation-container {
+    display: flex;
+    margin-right: 1rem;
+    min-width: 20rem;
+    justify-content: space-between;
+}
+
+
+.navigation__links{    
+    color:black;
+}
+
+.navigation__links--underline{
+    border-bottom: 3px solid #DB7A4E;
+    padding-bottom: 4px;
+    
+}
+.navigation__logo {
+    display: flex;
+    align-self: center;
+    margin-left: 3rem;
+    color: #335576;
+    font-weight: 700;
+}
+
+/* DESTINATION */
+
+.--imageHawaii{
+    background-image: url(../assets/images/hawaii.jpg);
+}
+
+.--imageIceland{
+    background-image: url(../assets/images/iceland.jpg);
+}
+
+.--imageGreece{
+    background-image: url(../assets/images/greece.jpg);
+}
+
+.destinationPage__container{
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 100vw;
+    min-width: 50%;
+    max-width: 100%;
+    min-height: 100%;
+    display:flex;
+    flex-direction: column;
+
+}
+
+.destinationPage__cardContainer{
+    display: flex;
+    height: 80vh;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.destinationPage__card {
+    margin-left: 2.25rem;
+    border-radius: 8px;
+    background-color: white;
+    height: 18.75rem;
+    width: 15.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:center;
+    padding-bottom: 50px;
+}
+
+.day__title{
+    text-align: center;
+    width: 200px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+}
+
+/* FOOTER */
+
+.footer-container{
+    background-color: #FEFAF5;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hours-container{
+    width: 31.25rem;
+    display:flex;
+    justify-content: space-between;
+}
+
+
+.icons__container{
+    display: flex;
+    width: 15.62rem;;
+}
+
+.footer__icons{
+    height: 2.5rem;
+    width: 1.87rem;
+    margin-right: 2.8rem;
+}
