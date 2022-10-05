@@ -1,4 +1,7 @@
 /* GENERAL STYLING */
+body{
+    margin: 0;
+}
 ul{
     list-style: none;
 }
@@ -95,7 +98,7 @@ button {
     margin-top: 3.1rem;
 }
 
-.destinations-container{
+.destinations{
     display: flex;
     justify-content: space-around;
 }
